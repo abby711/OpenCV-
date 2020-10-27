@@ -6,7 +6,7 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') 
 
 
-url=' http://192.168.1.3:8080/shot.jpg'
+url=' ip webcam app's http url.shot.jpg'
 while True:
     imgresp=urllib.request.urlopen(url) #get image from webcam
     imgnp=np.array(bytearray(imgresp.read()),dtype=np.uint8) #convert into array
