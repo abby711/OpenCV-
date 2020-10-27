@@ -1,4 +1,4 @@
-Repo consists of relatime OpenCV mini projects.
+Repo consists of realtime OpenCV mini projects.
 
 1.Videostreaming
 
