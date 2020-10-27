@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 import time
 #replace the url with ipwebcam shot.jpg IP:port
-url=' http://192.168.1.3:8080/shot.jpg'
+url=' ip webcam's http url /shot.jpg'
 while True:
     imgresp=urllib.request.urlopen(url) #get image from webcam
     imgnp=np.array(bytearray(imgresp.read()),dtype=np.uint8) #convert into array
