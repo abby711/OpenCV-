@@ -14,3 +14,6 @@ Repo consists of realtime OpenCV mini projects.
 
 7.Drowsiness detection while video streaming
 
+8.Lipmovement detection
+
+
