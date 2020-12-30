@@ -41,8 +41,8 @@ alarmstatus2=False
 saying=0
 c=0
 print("****loading predictor and detector")
-detector=cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-predictor=dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
+detector=cv2.CascadeClassifier(cv2.data.haarcascades+"haarcascade_frontalface_default.xml")
+predictor=dlib.shape_predictor(cv2.data.haarcascades+'shape_predictor_68_face_landmarks.dat')
 
 print("-> Starting Video Stream")
 vs = VideoStream(src=args["webcam"]).start()
